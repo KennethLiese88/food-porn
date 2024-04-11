@@ -1,0 +1,230 @@
+* {
+    margin: 0 ;
+    padding: 1px;
+    box-sizing: border-box;
+  }
+  
+  /* HEADER */
+  
+  header {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .left-icons,
+  .right-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: darkslategrey;
+    font-size: 1.5rem;
+  }
+  
+  i:hover {
+    transform: scale(1.2);
+    color: crimson;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+
+  .title img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-family: "Indie Flower", cursive;
+    font-size: 4rem;
+    text-shadow: 3px 3px 3px crimson;
+  }
+  
+  .custom-hr1 {
+    border: 0;
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px;
+  }
+  
+  a {
+    font-family: "Indie Flower", cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategrey;
+    border-left: 1px solid lightgrey;
+    padding: 0 10px;
+  }
+  
+  a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: crimson;
+  }
+  
+  /* MAIN */
+
+  .slide-show {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .slide-show img {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+ #carouselExampleInterval {
+  height: 220px;
+  width: 400px;
+ }
+
+ #carouselExampleInterval img {
+  width: 300px;
+  height: 220px;
+  border-radius: 100px;
+
+ }
+  
+  main .post-section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 25%;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }
+  
+  span {
+    width: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(179, 27, 57);
+    text-shadow: 3px 3px 3px black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 30px;
+  }
+  
+  h2,
+  .box p,
+  details {
+    width: 66%;
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  details p {
+    width: fit-content;
+    font-size: 1rem;
+  }
+  
+  details:hover {
+    cursor: pointer;
+    color: crimson;
+  }
+  
+  .post1 {
+    background-image: url(./images/sushi-rollen-im-kopierbereich_23-2148631184.avif);
+  }
+  
+  .post2 {
+    background-image: url(./images/1645464062473.jpeg);
+  }
+  
+  .post3 {
+    background-image: url(./images/rezept-fuer-japanische-mitarashi-dango.jpg);
+  }
+  
+  /* FOOTER */
+  
+  footer section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: black;
+    color: lightgrey;
+    padding: 20px;
+  }
+  
+  footer section div {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  .footer-box2 {
+    text-align: center;
+    display: block;
+  }
+  
+  input {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: crimson;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+  }
+  
+  input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: darkred;
+  }
+  
+  .custom-hr2 {
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background-color: grey;
+  }
+  
+  footer .copy {
+    text-align: center;
+    background-color: black;
+    color: lightgrey;
+    padding: 20px;
+  }
+
+  footer p {
+    margin: 0;
+  }
